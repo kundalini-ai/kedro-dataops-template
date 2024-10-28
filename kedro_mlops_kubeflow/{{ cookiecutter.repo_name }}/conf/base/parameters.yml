@@ -1,0 +1,23 @@
+project: prj-dataops-test
+credentials: credentials.json
+l_tables: prj-dataops-test.test
+key: projects/prj-dataops-test/serviceAccounts/sa-dataops-cred@prj-dataops-test.iam.gserviceaccount.com/keys/
+service_account_email: sa-dataops-cred@prj-dataops-test.iam.gserviceaccount.com
+name: temporary-account
+service_account_email1: temporary-account@prj-dataops-test.iam.gserviceaccount.com
+gcp_roles:
+  cloud_big_query: roles/bigquery.admin
+  cloud_app_engine: roles/appengine.appAdmin
+  cloud_artifact_registry: roles/artifactregistry.admin
+  cloud_build: roles/cloudbuild.builds.approver
+  cloud_functions: roles/cloudfunctions.admin
+  cloud_run: roles/run.admin
+  cloud_scheduler: roles/cloudscheduler.admin
+  cloud_sql: roles/cloudsql.admin
+  cloud_storage: roles/storage.admin
+  cloud_engine: roles/compute.admin
+  cloud_dataflow: roles/dataflow.admin
+  cloud_dataproc: roles/dataproc.admin
+  cloud_pub_sub: roles/pubsub.admin
+
+
